@@ -1,0 +1,35 @@
+{
+  "name": "video-tube",
+  "version": "1.0.0",
+  "description": "a project inspired by youtube",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsh-ke/video-tube_backend.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongoose",
+    "backend",
+    "API"
+  ],
+  "author": "arsh kureshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsh-ke/video-tube_backend/issues"
+  },
+  "homepage": "https://github.com/arsh-ke/video-tube_backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.8.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4"
+  }
+}
